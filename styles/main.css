@@ -12,7 +12,6 @@ html {
 @font-face {
   font-family: 'HeatedWords';
   src: url("../type/HeatedWords/HeatedWordsRemake.woff");
-  format('opentype');
 }
 /* GLOBAL */
 
