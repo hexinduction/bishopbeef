@@ -12,14 +12,8 @@ html {
 @font-face {
   font-family: 'HeatedWords';
   src: url("../type/HeatedWords/HeatedWordsRemake.otf");
+  format('opentype');
 }
-
-@font-face {
-  font-family: 'Arbordage';
-  src: url("../type/Arbordage/WOFF/Arbordage-Regular.woff");
-  src: url("../type/Arbordag/WOFF2/Arbordage-Regular.woff2");
-}
-
 /* GLOBAL */
 
 h1 {
