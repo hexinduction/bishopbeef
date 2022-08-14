@@ -11,7 +11,7 @@ html {
 
 @font-face {
   font-family: 'HeatedWords';
-  src: url("../type/HeatedWords/HeatedWordsRemake.otf");
+  src: url("../type/HeatedWords/HeatedWordsRemake.woff");
   format('opentype');
 }
 /* GLOBAL */
@@ -86,7 +86,7 @@ nav {
 
 .pl-text-logo {
   margin: auto;
-  font-family: 'HeatedWords';
+  font-family: 'HeatedWords', 'FT88Gothique';
 }
 
 .nav-mid {
