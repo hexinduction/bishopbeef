@@ -1,0 +1,420 @@
+html {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+/* Type */
+@font-face {
+  font-family: 'FT88Gothique';
+  src: url("../type/FT88Gothique/WOFF/FT88-Gothique.woff");
+  src: url("../type/FT88Gothique/WOFF2/FT88-Gothique.woff2");
+}
+
+@font-face {
+  font-family: 'HeatedWords';
+  src: url("../type/HeatedWords/HeatedWordsRemake.otf");
+}
+
+@font-face {
+  font-family: 'Arbordage';
+  src: url("../type/Arbordage/WOFF/Arbordage-Regular.woff");
+  src: url("../type/Arbordag/WOFF2/Arbordage-Regular.woff2");
+}
+
+/* GLOBAL */
+
+h1 {
+  font-size: 8.4rem;
+  font-family: 'circe';
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.6rem;
+  font-family: 'FT88Gothique';
+  color: #E5899B;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: 800ms;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 300ms;
+}
+
+a:hover {
+  color: #E5899B;
+  font-size: 1.8rem;
+  transition: 300ms;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+body {
+  background-color: #180E11;
+  margin: 0 auto;
+  font-family: 'circe';
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100vw;
+}
+
+/* NAVIGATION */
+
+nav {
+  height: 9.6rem;
+  /*border: solid #FFFFFF;*/
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 2.5%;
+  margin: 2.4rem auto;
+  width: 90%;
+  align-items: center;
+}
+
+.left-nav {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.pl-text-logo {
+  margin: auto;
+  font-family: 'HeatedWords';
+}
+
+.nav-mid {
+  /*border-left: .3rem solid #FFFFFF;*/
+  grid-column-start: 4;
+  grid-column-end: 10;
+  height: 9.6rem;
+  margin: auto;
+}
+
+.beef-logo {
+  height: 8rem;
+  margin: auto;
+  opacity: .9;
+  transition: 400ms;
+}
+
+.beef-logo:hover {
+  height: 7rem;
+  transition: 400ms;
+  opacity: 1;
+}
+
+.right-nav-music {
+  /*border-left: .3rem solid #FFFFFF;*/
+  /*border-right: .3rem solid #FFFFFF;*/
+  grid-column-start: 11;
+  grid-column-end: 12;
+  text-align: center;
+}
+
+.music {
+  line-height: 1.8rem;
+  margin: 1.4rem auto;
+}
+
+.right-nav-shop {
+  grid-column-start: 12;
+  grid-column-end: 13;
+  text-align: center;
+}
+
+.shop {
+  line-height: 1.8rem;
+  margin: 1.4rem auto;
+}
+
+/* MAIN */
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 2.5%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.product-intro-category {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  margin-top: 2.4rem;
+  justify-content: center;
+}
+
+/* categories background */
+
+.music {
+  color: rgba(24, 14, 17, 0);
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  position: relative;
+  letter-spacing: -.3rem;
+}
+
+.music:before {
+  color: rgba(24, 14, 17, 0);
+  content: "music";
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(255, 0, 255, 0.1);
+  letter-spacing: .3rem;
+  position: absolute;
+  top: 1%;
+  left: 15%;
+  z-index: -2;
+  font-size: 9.6rem;
+}
+
+.music:after {
+  color: rgba(24, 14, 17, 0);
+  content: "music";
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(0, 100, 100, 0.2);
+  letter-spacing: .3rem;
+  position: absolute;
+  top: 1%;
+  left: 25%;
+  z-index: -1;
+  font-size: 9.6rem;
+}
+
+.shop {
+  color: rgba(24, 14, 17, 0);
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  position: relative;
+  letter-spacing: -.3rem;
+}
+
+.shop:before {
+  color: rgba(24, 14, 17, 0);
+  content: "shop";
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(255, 0, 255, 0.1);
+  letter-spacing: .3rem;
+  position: absolute;
+  top: 1%;
+  left: 15%;
+  z-index: -2;
+  font-size: 9.6rem;
+}
+
+.shop:after {
+  color: rgba(24, 14, 17, 0);
+  content: "shop";
+  -webkit-text-stroke-width: .08rem;
+  -webkit-text-stroke-color: rgba(0, 100, 100, 0.2);
+  letter-spacing: .3rem;
+  position: absolute;
+  top: 1%;
+  left: 25%;
+  z-index: -1;
+  font-size: 9.6rem;
+}
+
+.product-intro-name {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  margin-top: 4.8rem;
+  justify-content: center;
+}
+
+.product-intro-photo {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  height: 40vw;
+  margin: 2.4rem auto 0 auto;
+  /*overflow: hidden;*/
+  width: 40vw;
+}
+
+.product-intro-photo:hover {
+  /*overflow: visible;*/
+}
+
+.product-white-bg {
+    background-color: #ffffff;
+}
+
+.lotb {
+  width: 100%;
+  transition: 300ms;
+}
+
+.lotb:hover {
+  width: 102%;
+  transition: 300ms;
+}
+
+.product-intro-description {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
+.product-intro-date {
+  text-align: center;
+}
+
+.product-intro-details {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
+.product-description {
+  text-align: left;
+  margin: 4%;
+}
+
+.main-link {
+  font-family: 'circe';
+  font-size: 1.6rem;
+  border-bottom: .15rem solid;
+}
+
+.product-shop {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-top: 3.6rem;
+  text-align: left;
+}
+
+.bar
+{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin-top: 2.4rem;
+  height: 1.6rem;
+  background-color: #FFFFFF;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #180E11;
+  margin: 3.6rem auto 0 auto;
+  width: 100%;
+  height: 9.6rem;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 2.5%;
+  grid-template-rows: (12, 1fr);
+  grid-row-gap: 25%;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  align-items: center;
+}
+
+.foot-link {
+  color: #FFFFFF;
+}
+
+.shop-footer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+}
+
+.contact-footer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+}
+
+.copyright-footer {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.copyright {
+  font-size: 1rem;
+}
+
+.logo-footer {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.home-link {
+  width: 100%;
+  height: auto;
+}
+
+.beef-logo-footer {
+  width: 100%;
+  max-width: 16.8rem;
+  opacity: .8;
+  transition: 400ms;
+}
+
+.beef-logo-footer:hover {
+  opacity: 1;
+  transition: 400ms;
+}
+
+/* SHOP */
+
+.tiddy-tee-photo {
+  position: relative;
+}
+
+.tiddy-tee-photo img {
+  position: absolute;
+  left:0;
+  transition: 800ms ease-in;
+}
+
+.tiddy-tee {
+  width: 100%;
+  transition: 300ms;
+  opacity: .8;
+}
+
+.tiddy-tee-after {
+  width: 100%;
+  opacity: .2;
+}
+
+.tiddy-tee:hover {
+  width: 102%;
+  transition: 300ms;
+  opacity: .2;
+}
+
+.tiddy-tee-after:hover {
+  width: 102%;
+  opacity: .9;
+  transition: 800ms;
+}
