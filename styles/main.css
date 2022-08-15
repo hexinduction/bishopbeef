@@ -85,7 +85,16 @@ nav {
 
 .type-logo {
   margin: auto;
-  max-width: 12.8rem;
+  width: 50%;
+  transition: 300ms;
+  min-width: 8rem;
+}
+
+.type-logo:hover {
+  margin: auto;
+  width: 60%;
+  transition: 300ms;
+  min-width: 9.6rem;
 }
 
 .nav-mid {
