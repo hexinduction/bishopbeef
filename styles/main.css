@@ -389,34 +389,34 @@ nav {
 
 /* SHOP */
 
-.tiddy-tee-photo {
+.breast-tee-photo {
   position: relative;
 }
 
-.tiddy-tee-photo img {
+.breast-tee-photo img {
   position: absolute;
   left:0;
   transition: 800ms ease-in;
 }
 
-.tiddy-tee {
+.breast-tee {
   width: 100%;
   transition: 300ms;
   opacity: .8;
 }
 
-.tiddy-tee-after {
+.breast-tee-after {
   width: 100%;
   opacity: .2;
 }
 
-.tiddy-tee:hover {
+.breast-tee:hover {
   width: 102%;
   transition: 300ms;
   opacity: .2;
 }
 
-.tiddy-tee-after:hover {
+.breast-tee-after:hover {
   width: 102%;
   opacity: .9;
   transition: 800ms;
